@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\chenling\\TSE\\Paint\\animations\\build\\intermediates\\res\\merged\\debug\\animator\\rotation.xml",
+        "source": "D:\\chenling\\TSE\\Paint\\animations\\src\\main\\res\\animator\\rotation.xml"
+    },
+    {
+        "merged": "D:\\chenling\\TSE\\Paint\\animations\\build\\intermediates\\res\\merged\\debug\\animator\\anim_bar_empty.xml",
+        "source": "D:\\chenling\\TSE\\Paint\\animations\\src\\main\\res\\animator\\anim_bar_empty.xml"
+    },
+    {
+        "merged": "D:\\chenling\\TSE\\Paint\\animations\\build\\intermediates\\res\\merged\\debug\\animator\\path_morph.xml",
+        "source": "D:\\chenling\\TSE\\Paint\\animations\\src\\main\\res\\animator\\path_morph.xml"
+    },
+    {
+        "merged": "D:\\chenling\\TSE\\Paint\\animations\\build\\intermediates\\res\\merged\\debug\\animator\\animator.xml",
+        "source": "D:\\chenling\\TSE\\Paint\\animations\\src\\main\\res\\animator\\animator.xml"
+    },
+    {
+        "merged": "D:\\chenling\\TSE\\Paint\\animations\\build\\intermediates\\res\\merged\\debug\\animator\\anim_bar_fill.xml",
+        "source": "D:\\chenling\\TSE\\Paint\\animations\\src\\main\\res\\animator\\anim_bar_fill.xml"
+    },
+    {
+        "merged": "D:\\chenling\\TSE\\Paint\\animations\\build\\intermediates\\res\\merged\\debug\\animator\\anim_search_empty.xml",
+        "source": "D:\\chenling\\TSE\\Paint\\animations\\src\\main\\res\\animator\\anim_search_empty.xml"
+    },
+    {
+        "merged": "D:\\chenling\\TSE\\Paint\\animations\\build\\intermediates\\res\\merged\\debug\\animator\\anim_search_fill.xml",
+        "source": "D:\\chenling\\TSE\\Paint\\animations\\src\\main\\res\\animator\\anim_search_fill.xml"
+    }
+]

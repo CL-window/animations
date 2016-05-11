@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd"
+    android:gravity="center"
+    >
+    <!-- FrameLayout 没有排列顺序 只有一个控件位置，所有的控件都在一起-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="24dp"
+            android:src="@drawable/search_bar"
+            android:onClick="animate" />
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="150dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:textSize="12sp"
+            android:paddingStart="4dp"
+            android:textColor="?android:colorAccent"
+            android:alpha="0" />
+
+    </FrameLayout>
+
+
+</LinearLayout>
+

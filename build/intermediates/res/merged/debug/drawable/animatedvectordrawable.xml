@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_3d_rotation_24dp"><!--矢量资源-->
+    <!-- target android:name="rotationGroup" 矢量资源 vectordrawable.xml中定义的name 即 animation定义的动画，是针对该name的-->
+    <target
+        android:name="rotationGroup"
+        android:animation="@animator/rotation" />
+    <target
+        android:name="v"
+        android:animation="@animator/path_morph" />
+</animated-vector>
+
+<!--让矢量图有动画效果 Second is the AnimatedVectorDrawable's XML file, which defines the target VectorDrawable, the target paths and groups to animate,
+the properties of the path and group to animate and the animations defined as the ObjectAnimators or AnimatorSets.-->

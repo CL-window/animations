@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动画" />
+        <Button
+            android:id="@+id/alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AiphaAnimation"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RotateAnimatio"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TranslateAnimation"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScaleAnimation"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animationset"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/object"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ObjectAnimator"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/property"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PropertyValuesHolder"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ValueAnimator"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/animatorSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AnimatorSet"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/animate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="animate"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/fromXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XML"
+            />
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="布局动画"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/svg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SVG"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/xiala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下拉动画"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+</ScrollView>
